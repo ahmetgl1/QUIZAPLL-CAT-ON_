@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">YBS201735014</string>
+    <string name="easy">Easy</string>
+    <string name="hard">Hard</string>
+    <string name="sign">Sign In</string>
+    <string name="password">Password</string>
+    <string name="retry">Retry Quizz</string>
+</resources>

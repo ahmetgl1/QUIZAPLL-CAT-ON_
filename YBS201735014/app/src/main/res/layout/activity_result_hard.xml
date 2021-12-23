@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/confetti_bg"
+    tools:context=".Result_hard_Activity">
+
+
+    <TextView
+        android:id="@+id/grade_hard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:padding="16dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:text=""
+        android:textColor="@color/purple"
+        android:textAlignment="center"></TextView>
+
+    <TextView
+        android:id="@+id/outOf_hard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/grade_hard"
+        android:layout_marginTop="150dp"
+        android:fontFamily="casual"
+        android:padding="30dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/purple"
+        android:textSize="34sp"
+        android:textStyle="bold"></TextView>
+
+
+    <ImageView
+        android:id="@+id/imageView_result_hard"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp" />
+
+    <Button
+        android:id="@+id/retry_hard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/outOf_hard"
+        android:text="@string/retry"
+        android:padding="8dp"
+        android:layout_marginTop="270dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"></Button>
+
+</RelativeLayout>
